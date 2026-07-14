@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCWA Player</title>
+    <link rel="icon" href="logo.png" />
+    <link rel="stylesheet" href="source/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container topbar">
+        <a class="brand" href="index.html">Mount Calvary Wiffleball Association</a>
+        <div class="dropdown">
+          <button class="menu-toggle" aria-expanded="false" aria-controls="site-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="sr-only">Menu</span>
+          </button>
+          <nav id="site-menu" class="dropdown-menu">
+            <a href="index.html#about">About</a>
+            <a href="index.html#teams">Teams</a>
+            <a href="index.html#standings">Standings</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="player-shell">
+        <div class="player-hero panel">
+          <div class="player-hero-main">
+            <div class="player-avatar" id="player-initials">P</div>
+            <div>
+              <p class="eyebrow">Wiffleball Player</p>
+              <h1 id="player-name">Loading player…</h1>
+              <p id="player-meta" class="player-meta">Loading profile details…</p>
+            </div>
+          </div>
+        </div>
+
+        <section class="player-stats">
+          <article class="panel stat-card">
+            <h3>Team</h3>
+            <p id="team-value">—</p>
+          </article>
+          <article class="panel stat-card">
+            <h3>Number</h3>
+            <p id="number-value">—</p>
+          </article>
+          <article class="panel stat-card">
+            <h3>B/T</h3>
+            <p id="hand-value">—</p>
+          </article>
+          <article class="panel stat-card" id="hr-card">
+            <h3>HR</h3>
+            <p id="hr-value">—</p>
+          </article>
+          <article class="panel stat-card" id="era-card" style="display: none;">
+            <h3>ERA</h3>
+            <p id="era-card-value">—</p>
+          </article>
+        </section>
+
+        <section class="panel player-details">
+          <h2>Season Snapshot</h2>
+          <div class="player-row" id="stats-view-row">
+            <label for="stats-view">Show</label>
+            <select id="stats-view">
+              <option value="batting">Batting</option>
+              <option value="pitching">Pitching</option>
+            </select>
+          </div>
+          <div class="player-row batting-row">
+            <span>Hits</span>
+            <strong id="hits-value">—</strong>
+          </div>
+          <div class="player-row batting-row">
+            <span>At Bats</span>
+            <strong id="abs-value">—</strong>
+          </div>
+          <div class="player-row batting-row">
+            <span>Walks</span>
+            <strong id="walks-value">—</strong>
+          </div>
+          <div class="player-row batting-row">
+            <span>RBIs</span>
+            <strong id="rbi-detail-value">—</strong>
+          </div>
+          <div class="player-row batting-row">
+            <span>Batting Average</span>
+            <strong id="avg-value">—</strong>
+          </div>
+          <div class="player-row batting-row">
+            <span>On Base Percentage</span>
+            <strong id="obp-value">—</strong>
+          </div>
+          <div class="player-row pitching-row" style="display: none;">
+            <span>ERA</span>
+            <strong id="era-value">—</strong>
+          </div>
+          <div class="player-row pitching-row" style="display: none;">
+            <span>Strikeouts</span>
+            <strong id="k-value">—</strong>
+          </div>
+          <div class="player-row pitching-row" style="display: none;">
+            <span>Innings Pitched</span>
+            <strong id="ip-value">—</strong>
+          </div>
+          <p id="status-message" class="status-message">Loading player data from the league data file…</p>
+        </section>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="container">Built for the MCWA.</div>
+    </footer>
+
+    <script src="source/script.js"></script>
+    <script src="source/player.js"></script>
+  </body>
+</html>

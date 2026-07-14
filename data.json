@@ -1,0 +1,175 @@
+{
+  "players": {
+
+    "grisser": {
+      "name": "Gideon Risser",
+      "team": "Beethoven",
+      "number": 10,
+      "hand": "S/R",
+      "stats": {
+        "batting": {
+          "hr": 8,
+          "rbi": 12,
+          "hits": 20,
+          "abs": 40,
+          "walks": 5
+        },
+        "pitching": {
+          "er": 2,
+          "ip": 9,
+          "k": 10
+        }
+      }
+    },
+
+    "npowell": {
+      "name": "Nathan Powell",
+      "team": "Bach",
+      "number": 13,
+      "hand": "R/R",
+      "stats": {
+        "batting": {
+          "hr": 4,
+          "rbi": 7,
+          "hits": 17,
+          "abs": 42,
+          "walks": 8
+        },
+        "pitching":{
+          "er": 3,
+          "ip": 12,
+          "k": 4
+        }
+      }
+    },
+
+    "efleck": {
+      "name": "Eli Fleck",
+      "team": "Nelson",
+      "number": 2,
+      "hand": "R/R",
+      "stats": {
+        "batting": {
+          "hr": 1,
+          "rbi": 9,
+          "hits": 24,
+          "abs": 38,
+          "walks": 10
+        }
+      }
+    },
+
+    "azeager": {
+      "name": "Austin Zeager",
+      "team": "Cash",
+      "number": 19,
+      "hand": "R/R",
+      "stats": {
+        "batting": {
+          "hr": 2,
+          "rbi": 5,
+          "hits": 12,
+          "abs": 30,
+          "walks": 3
+        }
+      }
+    }
+  },
+
+
+
+
+
+  "teams": {
+
+    "Beethoven": {
+      "name": "Beethoven",
+      "league": "Classical",
+      "record": {
+        "wins": 4,
+        "losses": 1,
+        "ties": 0
+      },
+      "schedule": [
+        "Tue vs. Bach • W 6-4",
+        "Thu at Mozart • W 7-3",
+        "Sat vs. Cash • L 5-4"
+      ]
+    },
+
+    "Mozart": {
+      "name": "Mozart",
+      "league": "Classical",
+      "record": {
+        "wins": 3,
+        "losses": 2,
+        "ties": 0
+      },
+      "schedule": [
+        "Mon vs. Beethoven • L 7-3",
+        "Wed at Parton • W 6-2",
+        "Fri vs. Bach • W 8-5"
+      ]
+    },
+
+    "Bach": {
+      "name": "Bach",
+      "league": "Classical",
+      "record": {
+        "wins": 2,
+        "losses": 3,
+        "ties": 0
+      },
+      "schedule": [
+        "Tue at Beethoven • L 6-4",
+        "Thu vs. Parton • W 5-3",
+        "Sat at Mozart • L 8-5"
+      ]
+    },
+
+    "Parton": {
+      "name": "Parton",
+      "league": "Country",
+      "record": {
+        "wins": 1,
+        "losses": 4,
+        "ties": 0
+      },
+      "schedule": [
+        "Mon vs. Mozart • L 6-2",
+        "Wed at Bach • L 5-3",
+        "Fri vs. Cash • L 7-1"
+      ]
+    },
+
+    "Nelson": {
+      "name": "Nelson",
+      "league": "Country",
+      "record": {
+        "wins": 2,
+        "losses": 4,
+        "ties": 0
+      },
+      "schedule": [
+        "Tue vs. Cash • L 6-1",
+        "Thu at Parton • W 7-4",
+        "Sat vs. Beethoven • W 6-3"
+      ]
+    },
+
+    "Cash": {
+      "name": "Cash",
+      "league": "Country",
+      "record": {
+        "wins": 5,
+        "losses": 0,
+        "ties": 0
+      },
+      "schedule": [
+        "Tue at Nelson • W 6-1",
+        "Thu vs. Beethoven • W 5-4",
+        "Sat at Parton • W 7-1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCWA</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="source/styles.css" />
+  </head>
+  <body>
+    
+    <main class="container">
+      <section class="hero">
+        <div>
+          <div class="sidebyside">
+            <img src="logo.png" width="100" height="100">
+            <h1>The Official Website of the MCWA</h1>
+          </div>
+          <p>
+            Welcome to the website of the Mount Calvary Wiffleball Association.
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="features">
+        <article id="standings" class="panel">
+          <h3>Standings</h3>
+          <h4>Classical</h4>
+          <ol id="classical-standings"></ol>
+          <h4>Country</h4>
+          <ol id="country-standings"></ol>
+        </article>
+        <article id="stats" class="panel">
+          <h3>Stats</h3>
+          <div class="stat-filters">
+            <div>
+              <label for="stat-group">Category</label>
+              <select id="stat-group">
+                <option value="batting">Batting</option>
+                <option value="pitching">Pitching</option>
+              </select>
+            </div>
+            <div>
+              <label for="stat-category">Stat</label>
+              <select id="stat-category"></select>
+            </div>
+          </div>
+          <ol id="stats-list"></ol>
+        </article>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="container"></div>
+    </footer>
+
+    <script src="source/script.js"></script>
+  </body>
+</html>

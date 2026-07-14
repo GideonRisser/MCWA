@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCWA Team</title>
+    <link rel="icon" href="logo.png" />
+    <link rel="stylesheet" href="source/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container topbar">
+        <a class="brand" href="index.html">Mount Calvary Wiffleball Association</a>
+        <div class="dropdown">
+          <button class="menu-toggle" aria-expanded="false" aria-controls="site-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="sr-only">Menu</span>
+          </button>
+          <nav id="site-menu" class="dropdown-menu">
+            <a href="index.html#about">About</a>
+            <a href="index.html#teams">Teams</a>
+            <a href="index.html#standings">Standings</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="team-shell">
+        <div class="panel team-hero">
+          <div class="team-hero-main">
+            <div class="team-avatar" id="team-initials">T</div>
+            <div>
+              <p class="eyebrow">Wiffleball Team</p>
+              <h1 id="team-name">Loading team…</h1>
+              <p id="team-meta" class="player-meta">Loading team details…</p>
+            </div>
+          </div>
+        </div>
+
+        <section class="team-stats">
+          <article class="panel stat-card">
+            <h3>Record</h3>
+            <p id="record-value">—</p>
+          </article>
+          <article class="panel stat-card">
+            <h3>League</h3>
+            <p id="league-value">—</p>
+          </article>
+          <article class="panel stat-card">
+            <h3>Team BA</h3>
+            <p id="team-avg-value">—</p>
+          </article>
+          <article class="panel stat-card">
+            <h3>ERA</h3>
+            <p id="team-era-value">—</p>
+          </article>
+        </section>
+
+        <section class="panel team-details">
+          <h2>Season Snapshot</h2>
+          <div class="team-row">
+            <span>Record</span>
+            <strong id="record-row-value">—</strong>
+          </div>
+          <div class="team-row">
+            <span>League</span>
+            <strong id="league-row-value">—</strong>
+          </div>
+          <div class="team-row">
+            <span>Team Batting Average</span>
+            <strong id="team-avg-row-value">—</strong>
+          </div>
+          <div class="team-row">
+            <span>Team ERA</span>
+            <strong id="team-era-row-value">—</strong>
+          </div>
+        </section>
+
+        <section class="panel team-details">
+          <h2>Schedule</h2>
+          <ul id="schedule-list" class="team-list">
+            <li>Loading schedule…</li>
+          </ul>
+        </section>
+
+        <section class="panel team-details">
+          <h2>Roster</h2>
+          <ul id="roster-list" class="team-list">
+            <li>Loading roster…</li>
+          </ul>
+        </section>
+
+        <p id="team-status-message" class="status-message">Loading team data from the league data file…</p>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="container">Built for the MCWA.</div>
+    </footer>
+
+    <script src="source/script.js"></script>
+    <script src="source/team.js"></script>
+  </body>
+</html>
