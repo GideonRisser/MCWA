@@ -1,4 +1,4 @@
-Divisions:
+"""Divisions:
 1. Classical
 2. Country
 
@@ -10,6 +10,21 @@ Teams:
 5. Parton
 6. Nelson
 
+Season:
+7 game Season
+    each team once, division rival twice
+    Sunday afternoons 
+    Locations (3):
+        1. Risser pond
+        2. 
+        3. 
+
+
+Schedule:
+Draft: snake draft 
+    order by lottery
+    date: 
+
 Playoffs:
 Top two in each division play in division championships
-Winners of division championships play in league championships
+Winners of division championships play in league championships"""
